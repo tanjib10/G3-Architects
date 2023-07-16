@@ -58,6 +58,7 @@ nav ul li a {
   font-weight: 700;
 }
 .banner-desc {
+  width: 100%;
   color: #727272;
   text-align: center;
   font-size: 1rem;
@@ -77,5 +78,14 @@ nav ul li a {
   }
   .banner-content {
     width: 80%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .banner-content {
+    width: 100%;
   }
 }
