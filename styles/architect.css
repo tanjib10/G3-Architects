@@ -182,15 +182,35 @@ main {
   }
   .team-img {
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 1rem;
   }
-
+  .team-content {
+    width: 300px;
+  }
   .team-content p {
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: left;
   }
   .btn-primary {
     margin-bottom: 1rem;
+  }
+  .features {
+    margin: 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .feature-img img {
+    width: 80%;
+  }
+  .experience-badge {
+    position: relative;
+    bottom: 70px;
+    width: 50%;
+  }
+  .experience-badge h3 {
+    font-size: 2rem;
+  }
+  .experience-badge p {
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -206,6 +226,12 @@ main {
   }
   .team-content button {
     margin-bottom: 0.5rem;
-    margin-left: 10rem;
+    margin-left: 13rem;
   }
+}
+.features {
+  flex-direction: column;
+}
+.feature-img img {
+  margin: 10px 60px;
 }
