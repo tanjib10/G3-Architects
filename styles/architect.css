@@ -238,6 +238,21 @@ main {
   justify-content: space-around;
 }
 
+footer {
+  background: rgba(255, 144, 14, 0.1);
+  text-align: center;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+footer h3 {
+  color: #424242;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 /* responsive styles */
 
 /* for mobiles */
@@ -294,7 +309,13 @@ main {
   .sponsor-img-container {
     align-items: center;
     flex-direction: column-reverse;
-    gap: 20px;
+    gap: 30px;
+  }
+  footer {
+    width: 90%;
+  }
+  footer h3 {
+    font-size: 1rem;
   }
 }
 
